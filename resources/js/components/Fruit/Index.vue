@@ -31,12 +31,7 @@ export default {
         this.getFruits();
     },
     methods: {
-        getFruits() {
-            axios.get('/api/fruits')
-                .then(res => {
-                    this.fruits = res.data.data
-            })
-        }
+        
     }
 }
 </script>
