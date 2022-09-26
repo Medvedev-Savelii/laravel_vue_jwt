@@ -5,6 +5,8 @@
         <Index></Index>
     </div>
 @endsection
+
+
 <script>
     import Index from "../../js/components";
     export default {

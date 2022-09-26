@@ -30,12 +30,13 @@ export default {
     mounted() {
         this.getFruits();
     },
+
     methods: {
         getFruits() {
-            axios.get('/api/fruits')
+            axios.get('api/fruits1111111111111111111')
                 .then(res => {
-                    this.fruits = res.data.data
-            })
+                    console.log(res);
+                }).catch(error => console.log(error))
         }
     }
 }
