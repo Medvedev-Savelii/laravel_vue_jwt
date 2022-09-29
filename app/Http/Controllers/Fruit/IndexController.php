@@ -10,6 +10,6 @@ class IndexController extends Controller
     public function index()
     {
         $fruits = Fruit::all();
-        return FruitResource::collection($fruits);
+        return $fruits;
     }
 }
